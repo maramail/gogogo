@@ -39,7 +39,7 @@
       "visible": 1,
       "x": -15.517242431640625,
       "y": 486.2069091796875,
-      "zorder": 1,
+      "zorder": 3,
       "gameobjects": [],
       "components": [
         {
@@ -58,7 +58,7 @@
     {
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
       "classname": "CCNode",
-      "name": null,
+      "name": "bgnear",
       "canedit": true,
       "objecttag": 10005,
       "rotation": 0,
@@ -67,9 +67,49 @@
       "visible": 1,
       "x": 0,
       "y": 0,
+      "zorder": 2,
+      "gameobjects": [],
+      "components": [
+        {
+          "__type": "ComGUIAdapterSurrogate:#EditorCommon.JsonModel.Component",
+          "classname": "GUIComponent",
+          "name": "GUIComponent",
+          "file": null,
+          "fileData": {
+            "path": "ui/battle_bg_forest_day/forest_day_near.ExportJson",
+            "plistFile": "",
+            "resourceType": 0
+          }
+        }
+      ]
+    },
+    {
+      "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+      "classname": "CCNode",
+      "name": "bgfar",
+      "canedit": true,
+      "objecttag": 10006,
+      "rotation": 0,
+      "scalex": 1,
+      "scaley": 1,
+      "visible": 1,
+      "x": 0,
+      "y": 0,
       "zorder": 1,
       "gameobjects": [],
-      "components": []
+      "components": [
+        {
+          "__type": "ComGUIAdapterSurrogate:#EditorCommon.JsonModel.Component",
+          "classname": "GUIComponent",
+          "name": "GUIComponent",
+          "file": null,
+          "fileData": {
+            "path": "ui/battle_bg_forest_day/forest_day_far.ExportJson",
+            "plistFile": "",
+            "resourceType": 0
+          }
+        }
+      ]
     }
   ],
   "CanvasSize": {

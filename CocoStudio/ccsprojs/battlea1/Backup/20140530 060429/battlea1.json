@@ -14,30 +14,18 @@
     {
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
       "classname": "CCNode",
-      "name": "enemybar",
+      "name": null,
       "canedit": true,
       "objecttag": 10003,
       "rotation": 0,
       "scalex": 1,
       "scaley": 1,
       "visible": 1,
-      "x": 601.3514404296875,
-      "y": 479.72979736328125,
-      "zorder": 3,
+      "x": 0,
+      "y": 0,
+      "zorder": 1,
       "gameobjects": [],
-      "components": [
-        {
-          "__type": "ComGUIAdapterSurrogate:#EditorCommon.JsonModel.Component",
-          "classname": "GUIComponent",
-          "name": "GUIComponent",
-          "file": null,
-          "fileData": {
-            "path": "ui/battle_enemy_bar/battle_enemy_bar_1.ExportJson",
-            "plistFile": "",
-            "resourceType": 0
-          }
-        }
-      ]
+      "components": []
     },
     {
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
@@ -60,7 +48,7 @@
           "name": "GUIComponent",
           "file": null,
           "fileData": {
-            "path": "ui/battle_herobar/herobar_1.ExportJson",
+            "path": "ui/battle_heroba/herobar_1.ExportJson",
             "plistFile": "",
             "resourceType": 0
           }

@@ -31,7 +31,7 @@
       "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
       "classname": "CCNode",
       "name": "herobar",
-      "canedit": false,
+      "canedit": true,
       "objecttag": 10004,
       "rotation": 0,
       "scalex": 1,
