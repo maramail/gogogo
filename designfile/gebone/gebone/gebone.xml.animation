@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\GitHub\gogogo\designfile\gebone\gebone</ProjectDir>
+  <Version>1.2.0.1</Version>
+  <Resources>D:\GitHub\gogogo\designfile\gebone\gebone\Resources</Resources>
+  <Name>gebone</Name>
+  <JsonFileName>gebone.json</JsonFileName>
+  <JsonFolder>D:\GitHub\gogogo\designfile\gebone\gebone\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <filePath>D:\GitHub\gogogo\designfile\gebone\gebone\gebone.xml.animation</filePath>
+  <ProjectType>AnimationProject</ProjectType>
+  <ResRelativePath />
+  <ResourceFileList>
+    <string>aas0.plist</string>
+  </ResourceFileList>
+  <bBatchImage>true</bBatchImage>
+</AnimationProject>

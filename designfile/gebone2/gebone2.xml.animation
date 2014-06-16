@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>D:\GitHub\gogogo\designfile\gebone2</ProjectDir>
+  <Version>1.2.0.1</Version>
+  <Resources>D:\GitHub\gogogo\designfile\gebone2\Resources</Resources>
+  <Name>gebone2</Name>
+  <JsonFileName>gebone2.json</JsonFileName>
+  <JsonFolder>D:\GitHub\gogogo\designfile\gebone2\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <filePath>D:\GitHub\gogogo\designfile\gebone2\gebone2.xml.animation</filePath>
+  <ProjectType>AnimationProject</ProjectType>
+  <ResRelativePath />
+  <ResourceFileList>
+    <string>orc10.plist</string>
+  </ResourceFileList>
+  <bBatchImage>true</bBatchImage>
+</AnimationProject>
