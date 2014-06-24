@@ -9,11 +9,11 @@
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
-    <Project>head_menu</Project>
+    <Project>topmenu</Project>
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
-    <Project>downmenu</Project>
+    <Project>quickmenu</Project>
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
