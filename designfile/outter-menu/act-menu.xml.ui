@@ -12,10 +12,11 @@
     <string>quickmenu.json</string>
     <string>info_window_confirm.json</string>
     <string>info_window_confirm_yn.json</string>
-    <string>mission_sp.json</string>
+    <string>questmap.json</string>
     <string>arsenal.json</string>
     <string>equipment_list.json</string>
-    <string>equipment_select.json</string>
+    <string>equipment_nowlist.json</string>
+    <string>bg.json</string>
   </JsonList>
   <CanvasSize>
     <Width>1024</Width>
@@ -24,8 +25,12 @@
   <filePath>D:\GitHub\gogogo\designfile\outter-menu\act-menu.xml.ui</filePath>
   <ProjectType>UIProject</ProjectType>
   <ResRelativePath />
-  <imageFileList />
-  <imagePngList />
+  <imageFileList>
+    <string>act-menu0.plist</string>
+  </imageFileList>
+  <imagePngList>
+    <string>act-menu0.png</string>
+  </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>topmenu.json</CurrentUIJson>
+  <CurrentUIJson>equipment_nowlist.json</CurrentUIJson>
 </UIProject>

@@ -21,7 +21,7 @@
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
-    <Project>mission_sp</Project>
+    <Project>questmap</Project>
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
@@ -33,7 +33,11 @@
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
-    <Project>equipment_select</Project>
+    <Project>equipment_nowlist</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>bg</Project>
     <GuidesList />
   </GuidesProject>
 </ArrayOfGuidesProject>

@@ -9,8 +9,12 @@
   "dataScale": 1,
   "designHeight": 768,
   "designWidth": 1024,
-  "textures": [],
-  "texturesPng": [],
+  "textures": [
+    "act-menu0.plist"
+  ],
+  "texturesPng": [
+    "act-menu0.png"
+  ],
   "version": "1.4.0.1",
   "widgetTree": {
     "classname": "Panel",
@@ -39,14 +43,14 @@
           "ignoreSize": true,
           "layoutParameter": null,
           "opacity": 255,
-          "positionPercentX": 0.494939566,
-          "positionPercentY": 0.9403408,
+          "positionPercentX": 0.494140625,
+          "positionPercentY": 0.9401042,
           "positionType": 0,
           "rotation": 0,
           "scaleX": 1,
           "scaleY": 1,
-          "sizePercentX": 0.078125,
-          "sizePercentY": 0.104166664,
+          "sizePercentX": 1.00585938,
+          "sizePercentY": 0.119791664,
           "sizeType": 0,
           "tag": 267,
           "touchAble": false,
@@ -76,7 +80,7 @@
       "classname": "Panel",
       "name": "all",
       "ZOrder": 0,
-      "actiontag": -1,
+      "actiontag": 1,
       "anchorPointX": 0,
       "anchorPointY": 0,
       "classType": "CocoStudio.EngineAdapterWrap.CSPanel",

@@ -12,7 +12,10 @@
   "textures": [
     "act-menu0.plist"
   ],
-  "version": "1.3.0.0",
+  "texturesPng": [
+    "act-menu0.png"
+  ],
+  "version": "1.4.0.1",
   "widgetTree": {
     "classname": "Panel",
     "name": null,
@@ -29,7 +32,7 @@
           "actiontag": 285,
           "anchorPointX": 0.5,
           "anchorPointY": 0.5,
-          "classType": "ImageView",
+          "classType": "CocoStudio.EngineAdapterWrap.CSImageView",
           "colorB": 255,
           "colorG": 255,
           "colorR": 255,
@@ -83,7 +86,7 @@
           "actiontag": 286,
           "anchorPointX": 0.5,
           "anchorPointY": 0.5,
-          "classType": "ImageView",
+          "classType": "CocoStudio.EngineAdapterWrap.CSImageView",
           "colorB": 255,
           "colorG": 255,
           "colorR": 255,
@@ -131,10 +134,10 @@
       "classname": "Panel",
       "name": "all",
       "ZOrder": 0,
-      "actiontag": -1,
+      "actiontag": 1,
       "anchorPointX": 0,
       "anchorPointY": 0,
-      "classType": "Panel",
+      "classType": "CocoStudio.EngineAdapterWrap.CSPanel",
       "colorB": 255,
       "colorG": 255,
       "colorR": 255,
@@ -167,7 +170,7 @@
       "backGroundScale9Enable": false,
       "bgColorB": 255,
       "bgColorG": 200,
-      "bgColorOpacity": 0,
+      "bgColorOpacity": 105,
       "bgColorR": 150,
       "bgEndColorB": 255,
       "bgEndColorG": 0,
@@ -180,7 +183,7 @@
       "capInsetsX": 0,
       "capInsetsY": 0,
       "clipAble": false,
-      "colorType": 1,
+      "colorType": 0,
       "layoutType": 0,
       "vectorX": 0,
       "vectorY": -0.5

@@ -9,7 +9,9 @@
   "dataScale": 1,
   "designHeight": 768,
   "designWidth": 1024,
-  "textures": [],
+  "textures": [
+    "act-menu0.plist"
+  ],
   "texturesPng": [],
   "version": "1.4.0.1",
   "widgetTree": {
