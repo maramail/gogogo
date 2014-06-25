@@ -23,7 +23,7 @@
       "visible": 1,
       "x": 0,
       "y": 0,
-      "zorder": 0,
+      "zorder": 1,
       "gameobjects": [],
       "components": [
         {
@@ -120,6 +120,36 @@
             "plistFile": "",
             "resourceType": 0
           }
+        }
+      ]
+    },
+    {
+      "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+      "classname": "CCNode",
+      "name": "show_hero",
+      "canedit": true,
+      "objecttag": 10013,
+      "rotation": 0,
+      "scalex": 0.4999999,
+      "scaley": 0.4999999,
+      "visible": 1,
+      "x": 313.28668212890625,
+      "y": 422.46499633789062,
+      "zorder": 1,
+      "gameobjects": [],
+      "components": [
+        {
+          "__type": "ComArmatureAdapterSurrogate:#EditorCommon.JsonModel.Component",
+          "classname": "CCArmature",
+          "name": "CCArmature",
+          "file": null,
+          "fileData": {
+            "path": "ani/charactor/testbody1/geboneA1.ExportJson",
+            "plistFile": "",
+            "resourceType": 0
+          },
+          "isShowColliderRect": false,
+          "selectedactionname": "standing"
         }
       ]
     }

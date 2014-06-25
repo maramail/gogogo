@@ -25,10 +25,6 @@
     <GuidesList />
   </GuidesProject>
   <GuidesProject>
-    <Project>arsenal</Project>
-    <GuidesList />
-  </GuidesProject>
-  <GuidesProject>
     <Project>equipment_list</Project>
     <GuidesList />
   </GuidesProject>
@@ -38,6 +34,10 @@
   </GuidesProject>
   <GuidesProject>
     <Project>bg</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>info_window_confirm2</Project>
     <GuidesList />
   </GuidesProject>
 </ArrayOfGuidesProject>

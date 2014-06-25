@@ -1,7 +1,8 @@
 [
   "ui/bg/act-menu0.png",
-  "ui/quickmenu/act-menu0.png",
   "ui/topmenu/act-menu0.png",
+  "ui/quickmenu/act-menu0.png",
+  "ui/equipment_nowlist/act-menu0.png",
   "ui/menu_index/act-menu0.png",
   "publish\\ui_index.json",
   "D:\\GitHub\\gogogo\\CocoStudio\\assets\\ui\\bg\\act-menu0.plist",
