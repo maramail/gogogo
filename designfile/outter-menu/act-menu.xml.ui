@@ -29,9 +29,7 @@
   <imageFileList>
     <string>act-menu0.plist</string>
   </imageFileList>
-  <imagePngList>
-    <string>act-menu0.png</string>
-  </imagePngList>
+  <imagePngList />
   <JsonSuffix>.json</JsonSuffix>
   <CurrentUIJson>info_window_longpressA.json</CurrentUIJson>
 </UIProject>
