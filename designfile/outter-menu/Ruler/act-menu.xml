@@ -40,4 +40,8 @@
     <Project>info_window_confirm2</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>info_window_longpressA</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

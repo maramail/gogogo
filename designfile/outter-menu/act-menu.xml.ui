@@ -17,6 +17,7 @@
     <string>equipment_nowlist.json</string>
     <string>bg.json</string>
     <string>info_window_confirm2.json</string>
+    <string>info_window_longpressA.json</string>
   </JsonList>
   <CanvasSize>
     <Width>1024</Width>
@@ -32,5 +33,5 @@
     <string>act-menu0.png</string>
   </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>equipment_nowlist.json</CurrentUIJson>
+  <CurrentUIJson>info_window_longpressA.json</CurrentUIJson>
 </UIProject>
