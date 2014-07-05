@@ -128,13 +128,13 @@
           "fontType": 0,
           "normal": null,
           "normalData": {
-            "path": "ui_back_button.png",
+            "path": "ui_button_back.png",
             "plistFile": "",
             "resourceType": 1
           },
           "pressed": null,
           "pressedData": {
-            "path": "ui_back_button.png",
+            "path": "ui_button_back.png",
             "plistFile": "",
             "resourceType": 1
           },

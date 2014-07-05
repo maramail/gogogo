@@ -44,4 +44,16 @@
     <Project>info_window_longpressA</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>info_window_quest</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>info_window_continue</Project>
+    <GuidesList />
+  </GuidesProject>
+  <GuidesProject>
+    <Project>info_window_quitgame</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

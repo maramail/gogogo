@@ -7,17 +7,20 @@
   <JsonFileName>act-menu.json</JsonFileName>
   <JsonFolder>D:\GitHub\gogogo\designfile\outter-menu\Json</JsonFolder>
   <JsonList>
-    <string>index.json</string>
+    <string>bg.json</string>
     <string>topmenu.json</string>
     <string>quickmenu.json</string>
-    <string>info_window_confirm.json</string>
-    <string>info_window_confirm_yn.json</string>
+    <string>index.json</string>
     <string>questmap.json</string>
     <string>equipment_list.json</string>
     <string>equipment_nowlist.json</string>
-    <string>bg.json</string>
+    <string>info_window_confirm.json</string>
     <string>info_window_confirm2.json</string>
+    <string>info_window_confirm_yn.json</string>
     <string>info_window_longpressA.json</string>
+    <string>info_window_quest.json</string>
+    <string>info_window_continue.json</string>
+    <string>info_window_quitgame.json</string>
   </JsonList>
   <CanvasSize>
     <Width>1024</Width>
@@ -29,9 +32,7 @@
   <imageFileList>
     <string>act-menu0.plist</string>
   </imageFileList>
-  <imagePngList>
-    <string>act-menu0.png</string>
-  </imagePngList>
+  <imagePngList />
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>index.json</CurrentUIJson>
+  <CurrentUIJson>info_window_confirm_yn.json</CurrentUIJson>
 </UIProject>

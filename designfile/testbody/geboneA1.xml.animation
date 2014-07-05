@@ -14,9 +14,6 @@
   <filePath>D:\GitHub\gogogo\designfile\testbody\geboneA1.xml.animation</filePath>
   <ProjectType>AnimationProject</ProjectType>
   <ResRelativePath />
-  <ResourceFileList>
-    <string>geboneA10.plist</string>
-    <string>geboneA11.plist</string>
-  </ResourceFileList>
-  <bBatchImage>true</bBatchImage>
+  <ResourceFileList />
+  <bBatchImage>false</bBatchImage>
 </AnimationProject>

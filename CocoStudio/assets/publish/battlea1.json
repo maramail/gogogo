@@ -190,9 +190,9 @@
       "canedit": true,
       "objecttag": 10009,
       "rotation": 0,
-      "scalex": 0.299999923,
-      "scaley": 0.299999923,
-      "visible": 0,
+      "scalex": 0.199999928,
+      "scaley": 0.199999928,
+      "visible": 1,
       "x": 498.33334350585938,
       "y": 262.23806762695312,
       "zorder": 6,
@@ -209,7 +209,7 @@
             "resourceType": 0
           },
           "isShowColliderRect": true,
-          "selectedactionname": "standing"
+          "selectedactionname": "jump"
         }
       ]
     }
