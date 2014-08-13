@@ -4,7 +4,7 @@
     {
       "strVersion": "1.4.0.1",
       "version": 1.401,
-      "name": "001yoyo",
+      "name": "yoyotest",
       "bone_data": [
         {
           "name": "body",
@@ -228,7 +228,7 @@
           "parent": "rightlega",
           "dI": 0,
           "x": 270.11990356445312,
-          "y": 9.5644035339355469,
+          "y": 9.5643959045410156,
           "z": 4,
           "cX": 1.0,
           "cY": 1.0,
@@ -259,7 +259,7 @@
           "parent": "rightlegb",
           "dI": -1,
           "x": 6.55810546875,
-          "y": -177.24285888671875,
+          "y": -177.242919921875,
           "z": 13,
           "cX": 1.0,
           "cY": 1.0,
@@ -381,7 +381,7 @@
         {
           "name": "knifelightdown",
           "parent": "weapen",
-          "dI": -1000,
+          "dI": -1,
           "x": -203.76138305664063,
           "y": -217.21768188476563,
           "z": 14,
@@ -445,7 +445,7 @@
   ],
   "animation_data": [
     {
-      "name": "001yoyo",
+      "name": "yoyotest",
       "mov_data": [
         {
           "name": "default",
@@ -7843,7 +7843,7 @@
         },
         {
           "name": "win2",
-          "dr": 30,
+          "dr": 31,
           "lp": false,
           "to": 0,
           "drTW": 0,
