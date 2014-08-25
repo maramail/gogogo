@@ -201,13 +201,13 @@
           "fontType": 0,
           "normal": null,
           "normalData": {
-            "path": "ui_button_queststart.png",
+            "path": "ui_button_confirm.png",
             "plistFile": "",
             "resourceType": 1
           },
           "pressed": null,
           "pressedData": {
-            "path": "ui_button_queststart.png",
+            "path": "ui_button_confirm.png",
             "plistFile": "",
             "resourceType": 1
           },

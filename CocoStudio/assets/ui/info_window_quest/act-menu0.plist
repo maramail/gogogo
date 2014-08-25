@@ -42,7 +42,7 @@
 				<key>offsetY</key>
 				<real>0</real>
 			</dict>
-			<key>ui_button_queststart.png</key>
+			<key>ui_button_confirm.png</key>
 			<dict>
 				<key>width</key>
 				<integer>125</integer>

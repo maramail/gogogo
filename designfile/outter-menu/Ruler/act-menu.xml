@@ -56,4 +56,8 @@
     <Project>info_window_quitgame</Project>
     <GuidesList />
   </GuidesProject>
+  <GuidesProject>
+    <Project>info_window_story</Project>
+    <GuidesList />
+  </GuidesProject>
 </ArrayOfGuidesProject>

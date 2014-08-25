@@ -4,16 +4,16 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>ui_storymode_button.png</key>
+			<key>map.png</key>
 			<dict>
 				<key>width</key>
-				<integer>125</integer>
+				<integer>1020</integer>
 				<key>height</key>
-				<integer>48</integer>
+				<integer>627</integer>
 				<key>originalWidth</key>
-				<integer>125</integer>
+				<integer>1020</integer>
 				<key>originalHeight</key>
-				<integer>48</integer>
+				<integer>627</integer>
 				<key>x</key>
 				<integer>0</integer>
 				<key>y</key>
@@ -23,18 +23,18 @@
 				<key>offsetY</key>
 				<real>0</real>
 			</dict>
-			<key>map.png</key>
+			<key>C:/Program Files/CocoStudio/EditorDefaultRes/GUI/button.png</key>
 			<dict>
 				<key>width</key>
-				<integer>1060</integer>
+				<integer>103</integer>
 				<key>height</key>
-				<integer>647</integer>
+				<integer>40</integer>
 				<key>originalWidth</key>
-				<integer>1060</integer>
+				<integer>103</integer>
 				<key>originalHeight</key>
-				<integer>647</integer>
+				<integer>40</integer>
 				<key>x</key>
-				<integer>127</integer>
+				<integer>1022</integer>
 				<key>y</key>
 				<integer>0</integer>
 				<key>offsetX</key>

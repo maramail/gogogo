@@ -21,6 +21,7 @@
     <string>info_window_quest.json</string>
     <string>info_window_continue.json</string>
     <string>info_window_quitgame.json</string>
+    <string>info_window_story.json</string>
   </JsonList>
   <CanvasSize>
     <Width>1024</Width>
@@ -32,7 +33,9 @@
   <imageFileList>
     <string>act-menu0.plist</string>
   </imageFileList>
-  <imagePngList />
+  <imagePngList>
+    <string>act-menu0.png</string>
+  </imagePngList>
   <JsonSuffix>.json</JsonSuffix>
-  <CurrentUIJson>info_window_confirm_yn.json</CurrentUIJson>
+  <CurrentUIJson>info_window_story.json</CurrentUIJson>
 </UIProject>
