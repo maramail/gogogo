@@ -4,7 +4,7 @@
     {
       "strVersion": "1.5.0.1",
       "version": 1.501,
-      "name": "char001",
+      "name": "yoyotest",
       "bone_data": [
         {
           "name": "body",
@@ -72,7 +72,7 @@
           "name": "leftarmb",
           "parent": "leftarma",
           "dI": 0,
-          "x": 69.568954467773438,
+          "x": 69.5689697265625,
           "y": -0.55333709716796875,
           "z": 12,
           "cX": 1.0,
@@ -471,7 +471,7 @@
   ],
   "animation_data": [
     {
-      "name": "char001",
+      "name": "yoyotest",
       "mov_data": [
         {
           "name": "default",
