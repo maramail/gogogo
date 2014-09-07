@@ -2,6 +2,11 @@
 <ArrayOfGuidesProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <GuidesProject>
     <Project>char033</Project>
-    <GuidesList />
+    <GuidesList>
+      <GuidesInfo>
+        <GuidesName>HThumb</GuidesName>
+        <GuidesPosition>-259.4594594594634</GuidesPosition>
+      </GuidesInfo>
+    </GuidesList>
   </GuidesProject>
 </ArrayOfGuidesProject>
