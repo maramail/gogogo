@@ -2,8 +2,8 @@
   "content_scale": 1.0,
   "armature_data": [
     {
-      "strVersion": "1.5.0.1",
-      "version": 1.501,
+      "strVersion": "1.4.0.1",
+      "version": 1.401,
       "name": "char034",
       "bone_data": [
         {
@@ -41,8 +41,8 @@
           "name": "leftarma",
           "parent": "body",
           "dI": 0,
-          "x": 36.923069000244141,
-          "y": 84.423065185546875,
+          "x": 37.923069000244141,
+          "y": 91.423065185546875,
           "z": 10,
           "cX": 1.0,
           "cY": 1.0,
@@ -73,7 +73,7 @@
           "parent": "leftarma",
           "dI": 0,
           "x": 69.5689697265625,
-          "y": -0.55333709716796875,
+          "y": -0.5533294677734375,
           "z": 11,
           "cX": 1.0,
           "cY": 1.0,
@@ -102,7 +102,7 @@
         {
           "name": "head",
           "parent": "body",
-          "dI": 2,
+          "dI": 4,
           "x": 2.3171501159667969,
           "y": 162.20680236816406,
           "z": 9,
@@ -253,7 +253,7 @@
           "parent": "leftlega",
           "dI": 0,
           "x": 129.77243041992188,
-          "y": -7.6492347717285156,
+          "y": -7.6492385864257812,
           "z": 6,
           "cX": 1.0,
           "cY": 1.0,
@@ -314,8 +314,8 @@
           "name": "rightlegb",
           "parent": "rightlega",
           "dI": 0,
-          "x": 125.2330322265625,
-          "y": 2.3468799591064453,
+          "x": 125.23300170898438,
+          "y": 2.3468780517578125,
           "z": 4,
           "cX": 1.0,
           "cY": 1.0,
@@ -434,9 +434,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -449,9 +447,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -470,9 +466,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -485,9 +479,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -506,9 +498,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -521,9 +511,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -542,9 +530,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -557,9 +543,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -578,9 +562,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -593,9 +575,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -614,9 +594,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -629,9 +607,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -650,9 +626,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -665,9 +639,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -686,9 +658,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -701,9 +671,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -722,9 +690,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -737,9 +703,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -758,9 +722,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -773,9 +735,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -783,7 +743,7 @@
         },
         {
           "name": "standing",
-          "dr": 30,
+          "dr": 31,
           "lp": true,
           "to": 0,
           "drTW": 0,
@@ -805,9 +765,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -826,9 +784,7 @@
                   "kY": -0.04784248,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -841,9 +797,7 @@
                   "kY": 0.087003544,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -856,9 +810,7 @@
                   "kY": -0.04784248,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -877,9 +829,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -898,9 +848,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -913,9 +861,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -928,9 +874,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -949,9 +893,7 @@
                   "kY": 0.0941773057,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -966,13 +908,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.305499673,
-                  "kY": 0.305499673,
+                  "kX": -0.35668245,
+                  "kY": 0.35668245,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -981,13 +921,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.531987,
-                  "kY": 0.531987,
+                  "kX": -0.6085632,
+                  "kY": 0.6085632,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -996,13 +934,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.305499673,
-                  "kY": 0.305499673,
+                  "kX": -0.35668245,
+                  "kY": 0.35668245,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1021,9 +957,7 @@
                   "kY": -0.0363448635,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1042,9 +976,7 @@
                   "kY": -0.4173476,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1053,13 +985,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.553892851,
-                  "kY": -0.553892851,
+                  "kX": 0.6199006,
+                  "kY": -0.6199006,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1072,9 +1002,7 @@
                   "kY": -0.4173476,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1093,9 +1021,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1108,9 +1034,7 @@
                   "kY": -0.0589284822,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1123,9 +1047,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1144,9 +1066,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1159,9 +1079,7 @@
                   "kY": -0.09666984,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1174,9 +1092,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1195,9 +1111,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -1205,7 +1119,7 @@
         },
         {
           "name": "running",
-          "dr": 30,
+          "dr": 31,
           "lp": true,
           "to": 0,
           "drTW": 0,
@@ -1227,9 +1141,7 @@
                   "kY": -0.05880592,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1248,9 +1160,7 @@
                   "kY": -0.6028818,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1263,9 +1173,7 @@
                   "kY": 0.307156056,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1278,9 +1186,7 @@
                   "kY": -0.6028818,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1299,9 +1205,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 4,
@@ -1314,9 +1218,7 @@
                   "kY": 0.0,
                   "fi": 10,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1329,9 +1231,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1350,9 +1250,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1365,9 +1263,7 @@
                   "kY": 0.0,
                   "fi": 7,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1380,9 +1276,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1395,9 +1289,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1410,9 +1302,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1431,9 +1321,7 @@
                   "kY": 0.4357639,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1446,9 +1334,7 @@
                   "kY": 0.162024811,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1461,9 +1347,7 @@
                   "kY": 0.4357639,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1482,9 +1366,7 @@
                   "kY": 0.8067697,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1497,9 +1379,7 @@
                   "kY": 0.05158173,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1512,9 +1392,7 @@
                   "kY": 0.8067697,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1533,9 +1411,7 @@
                   "kY": -0.315945685,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1548,9 +1424,7 @@
                   "kY": 0.08320128,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1563,9 +1437,7 @@
                   "kY": -0.315945685,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1584,9 +1456,7 @@
                   "kY": 0.286968231,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1599,9 +1469,7 @@
                   "kY": 0.9518667,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1614,9 +1482,7 @@
                   "kY": 0.437328964,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1635,9 +1501,7 @@
                   "kY": -0.154508412,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1650,9 +1514,7 @@
                   "kY": -0.154508412,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1665,9 +1527,7 @@
                   "kY": 0.0420842953,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1686,9 +1546,7 @@
                   "kY": 0.6121812,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1701,9 +1559,7 @@
                   "kY": -0.262097359,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1716,9 +1572,7 @@
                   "kY": 0.6121812,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1737,9 +1591,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -1769,9 +1621,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1784,9 +1634,7 @@
                   "kY": 0.125122756,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1799,9 +1647,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1820,9 +1666,7 @@
                   "kY": -0.04784248,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1835,9 +1679,7 @@
                   "kY": 0.127690464,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1850,9 +1692,7 @@
                   "kY": -0.04784248,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1871,9 +1711,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 2,
@@ -1886,9 +1724,7 @@
                   "kY": 0.0,
                   "fi": 10,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1901,9 +1737,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1922,9 +1756,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1937,9 +1769,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1952,9 +1782,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1973,9 +1801,7 @@
                   "kY": 0.09424778,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1994,9 +1820,7 @@
                   "kY": 0.35668245,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2009,9 +1833,7 @@
                   "kY": 0.6085632,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2024,9 +1846,7 @@
                   "kY": 0.35668245,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2045,9 +1865,7 @@
                   "kY": -0.0363028459,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2066,9 +1884,7 @@
                   "kY": -0.4173476,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2081,9 +1897,7 @@
                   "kY": -0.6199006,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2096,9 +1910,7 @@
                   "kY": -0.4173476,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2117,9 +1929,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2132,9 +1942,7 @@
                   "kY": -0.8097974,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2147,9 +1955,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2168,9 +1974,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2183,9 +1987,7 @@
                   "kY": -1.43145049,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2198,9 +2000,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2219,9 +2019,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -2229,7 +2027,7 @@
         },
         {
           "name": "magic2",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -2251,9 +2049,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2266,9 +2062,7 @@
                   "kY": 0.125122756,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2281,9 +2075,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2302,9 +2094,7 @@
                   "kY": -0.04784248,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2317,9 +2107,7 @@
                   "kY": 0.127690464,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2332,9 +2120,7 @@
                   "kY": -0.04784248,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2353,9 +2139,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2374,9 +2158,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2389,9 +2171,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2404,9 +2184,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2425,9 +2203,7 @@
                   "kY": 0.09424778,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2440,9 +2216,7 @@
                   "kY": 0.184051335,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2461,9 +2235,7 @@
                   "kY": 0.35668245,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2476,9 +2248,7 @@
                   "kY": 0.6085632,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2491,9 +2261,7 @@
                   "kY": 0.35668245,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2512,9 +2280,7 @@
                   "kY": -0.0363028459,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2527,9 +2293,7 @@
                   "kY": -0.102183789,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2548,9 +2312,7 @@
                   "kY": -0.4173476,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2563,9 +2325,7 @@
                   "kY": -0.6199006,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2578,9 +2338,7 @@
                   "kY": -0.4173476,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2599,9 +2357,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2614,9 +2370,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2635,9 +2389,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2650,9 +2402,7 @@
                   "kY": -1.00972056,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2665,9 +2415,7 @@
                   "kY": -1.289865,
                   "fi": 10,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2680,9 +2428,7 @@
                   "kY": -0.791613162,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2695,9 +2441,7 @@
                   "kY": -1.289865,
                   "fi": 20,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2710,9 +2454,7 @@
                   "kY": -0.791613162,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2725,9 +2467,7 @@
                   "kY": -1.289865,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2746,9 +2486,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -2756,7 +2494,7 @@
         },
         {
           "name": "jump2",
-          "dr": 26,
+          "dr": 25,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -2778,9 +2516,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2799,9 +2535,7 @@
                   "kY": -0.04784248,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2814,9 +2548,7 @@
                   "kY": -0.104709335,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2829,9 +2561,7 @@
                   "kY": -0.04784248,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2850,9 +2580,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 2,
@@ -2865,9 +2593,7 @@
                   "kY": 0.0,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2880,9 +2606,7 @@
                   "kY": 0.0,
                   "fi": 20,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2901,9 +2625,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2916,9 +2638,7 @@
                   "kY": 0.0,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2931,9 +2651,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2946,9 +2664,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2967,9 +2683,7 @@
                   "kY": 0.09424778,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2982,9 +2696,7 @@
                   "kY": 0.184051335,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3003,9 +2715,7 @@
                   "kY": 0.35668245,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3018,9 +2728,7 @@
                   "kY": 0.605019569,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3033,9 +2741,7 @@
                   "kY": 0.2372895,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3048,9 +2754,7 @@
                   "kY": 0.35668245,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3069,9 +2773,7 @@
                   "kY": -0.0620972,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3084,9 +2786,7 @@
                   "kY": -0.102183789,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3105,9 +2805,7 @@
                   "kY": -0.4173476,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3120,9 +2818,7 @@
                   "kY": -0.611290157,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3135,9 +2831,7 @@
                   "kY": -0.429249257,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3150,9 +2844,7 @@
                   "kY": -0.4173476,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3171,9 +2863,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3192,9 +2882,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3207,9 +2895,7 @@
                   "kY": 0.08888103,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3222,9 +2908,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3243,9 +2927,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -3275,9 +2957,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3296,9 +2976,7 @@
                   "kY": -0.04784248,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3311,9 +2989,7 @@
                   "kY": -0.5138593,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3332,9 +3008,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3353,9 +3027,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3368,9 +3040,7 @@
                   "kY": -0.6369893,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3383,9 +3053,7 @@
                   "kY": -1.45717883,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3404,9 +3072,7 @@
                   "kY": 0.0941773057,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3425,9 +3091,7 @@
                   "kY": 0.35668245,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3440,9 +3104,7 @@
                   "kY": -0.06937694,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3461,9 +3123,7 @@
                   "kY": -0.0363448635,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3482,9 +3142,7 @@
                   "kY": -0.4173476,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3497,9 +3155,7 @@
                   "kY": 0.00944587,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3518,9 +3174,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3539,9 +3193,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3554,9 +3206,7 @@
                   "kY": 0.214559823,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3575,431 +3225,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "magic3",
-          "dr": 30,
-          "lp": false,
-          "to": 0,
-          "drTW": 0,
-          "twE": 0,
-          "sc": 1.0,
-          "mov_bone_data": [
-            {
-              "name": "leftarmb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.125122756,
-                  "kY": 0.125122756,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftarma",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.04784248,
-                  "kY": -0.04784248,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.97946811,
-                  "kY": -1.97946811,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "head",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 4,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 2,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 10,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 25,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "body",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": -32.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftlega",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.09424778,
-                  "kY": 0.09424778,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftlegb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.35668245,
-                  "kY": 0.35668245,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.6085632,
-                  "kY": 0.6085632,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.35668245,
-                  "kY": 0.35668245,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightlega",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0363028459,
-                  "kY": -0.0363028459,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightlegb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.4173476,
-                  "kY": -0.4173476,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.6199006,
-                  "kY": -0.6199006,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.4173476,
-                  "kY": -0.4173476,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightarmb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightarma",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.10025644,
-                  "kY": -1.10025644,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "backhair",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
