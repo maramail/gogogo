@@ -374,7 +374,7 @@
           ]
         },
         {
-          "name": "weapen",
+          "name": "weapon",
           "parent": "rightarmb",
           "dI": 0,
           "x": 108.69956970214844,
@@ -406,7 +406,7 @@
         },
         {
           "name": "bladelightdown",
-          "parent": "weapen",
+          "parent": "weapon",
           "dI": 0,
           "x": -125.93936920166016,
           "y": -99.129074096679688,
@@ -437,7 +437,7 @@
         },
         {
           "name": "bladelightup",
-          "parent": "weapen",
+          "parent": "weapon",
           "dI": 0,
           "x": -120.67060089111328,
           "y": -96.450057983398438,
@@ -803,7 +803,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -1327,7 +1327,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -1471,7 +1471,7 @@
         },
         {
           "name": "running",
-          "dr": 31,
+          "dr": 30,
           "lp": true,
           "to": 0,
           "drTW": 0,
@@ -1903,7 +1903,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -2047,7 +2047,7 @@
         },
         {
           "name": "attack1",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -2492,7 +2492,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -2649,7 +2649,7 @@
         },
         {
           "name": "attack2",
-          "dr": 41,
+          "dr": 40,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -3224,7 +3224,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -3407,7 +3407,7 @@
         },
         {
           "name": "hitted2",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -3826,7 +3826,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -3970,7 +3970,7 @@
         },
         {
           "name": "jump",
-          "dr": 26,
+          "dr": 25,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -4454,7 +4454,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -4598,7 +4598,7 @@
         },
         {
           "name": "dead",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -4939,7 +4939,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -5070,7 +5070,7 @@
         },
         {
           "name": "attack3",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -5502,7 +5502,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -6065,7 +6065,7 @@
               ]
             },
             {
-              "name": "weapen",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -6479,8 +6479,8 @@
         {
           "vertex": [
             {
-              "x": -19.0,
-              "y": -3.0
+              "x": -21.0,
+              "y": -4.0
             },
             {
               "x": 5.0,
@@ -6507,11 +6507,11 @@
               "y": 8.0
             },
             {
-              "x": -123.0,
-              "y": -115.0
+              "x": -124.0,
+              "y": -116.0
             },
             {
-              "x": -177.0,
+              "x": -176.0,
               "y": -142.0
             },
             {
@@ -6523,8 +6523,8 @@
               "y": -30.0
             },
             {
-              "x": -19.0,
-              "y": -3.0
+              "x": -21.0,
+              "y": -4.0
             }
           ]
         },
