@@ -2,8 +2,8 @@
   "content_scale": 1.0,
   "armature_data": [
     {
-      "strVersion": "1.5.0.1",
-      "version": 1.501,
+      "strVersion": "1.4.0.1",
+      "version": 1.401,
       "name": "char001",
       "bone_data": [
         {
@@ -12,7 +12,7 @@
           "dI": 0,
           "x": 6.2498979568481445,
           "y": 20.133161544799805,
-          "z": 9,
+          "z": 8,
           "cX": 1.0,
           "cY": 1.0,
           "kX": 0.0,
@@ -46,8 +46,8 @@
           "z": 11,
           "cX": 1.0,
           "cY": 1.0,
-          "kX": 1.16847527,
-          "kY": -1.16847527,
+          "kX": 1.06981647,
+          "kY": -1.06981647,
           "arrow_x": 127.69584655761719,
           "arrow_y": -9.2951588158030063E-05,
           "effectbyskeleton": true,
@@ -72,8 +72,8 @@
           "name": "leftarmb",
           "parent": "leftarma",
           "dI": 0,
-          "x": 69.568916320800781,
-          "y": -0.55336761474609375,
+          "x": 69.568984985351562,
+          "y": -0.553314208984375,
           "z": 12,
           "cX": 1.0,
           "cY": 1.0,
@@ -100,12 +100,43 @@
           ]
         },
         {
+          "name": "weapon",
+          "parent": "leftarmb",
+          "dI": 0,
+          "x": 88.996810913085938,
+          "y": -0.67963635921478271,
+          "z": 10,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.14915955,
+          "kY": 1.14915955,
+          "arrow_x": -8.2492828369140625E-05,
+          "arrow_y": 2.7524631150299683E-05,
+          "effectbyskeleton": true,
+          "display_data": [
+            {
+              "name": "WEAPON.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": -52.1141243,
+                  "y": -40.7038651,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "head",
           "parent": "body",
           "dI": 0,
           "x": 3.2786884307861328,
           "y": 158.36064147949219,
-          "z": 10,
+          "z": 9,
           "cX": 1.0,
           "cY": 1.0,
           "kX": -1.57079637,
@@ -193,7 +224,7 @@
           "dI": 0,
           "x": 28.810874938964844,
           "y": -31.800701141357422,
-          "z": 8,
+          "z": 7,
           "cX": 1.0,
           "cY": 1.0,
           "kX": 1.58178484,
@@ -224,7 +255,7 @@
           "dI": 0,
           "x": 131.68479919433594,
           "y": -6.66661262512207,
-          "z": 7,
+          "z": 6,
           "cX": 1.0,
           "cY": 1.0,
           "kX": -0.0109884739,
@@ -255,7 +286,7 @@
           "dI": 0,
           "x": -22.548511505126953,
           "y": -33.640701293945312,
-          "z": 6,
+          "z": 5,
           "cX": 1.0,
           "cY": 1.0,
           "kX": 1.55992723,
@@ -286,7 +317,7 @@
           "dI": 0,
           "x": 122.31732177734375,
           "y": -0.50621223449707031,
-          "z": 5,
+          "z": 4,
           "cX": 1.0,
           "cY": 1.0,
           "kX": -0.000241518021,
@@ -320,8 +351,8 @@
           "z": 2,
           "cX": 1.0,
           "cY": 1.0,
-          "kX": 1.929567,
-          "kY": -1.929567,
+          "kX": 1.90571213,
+          "kY": -1.90571213,
           "arrow_x": 128.15994262695313,
           "arrow_y": -9.59933822741732E-06,
           "effectbyskeleton": true,
@@ -372,99 +403,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "weapen",
-          "parent": "rightarmb",
-          "dI": 0,
-          "x": 108.69956970214844,
-          "y": 0.36809539794921875,
-          "z": 4,
-          "cX": 1.0,
-          "cY": 1.0,
-          "kX": -0.964540958,
-          "kY": 0.964540958,
-          "arrow_x": -8.2492828369140625E-05,
-          "arrow_y": 2.7524631150299683E-05,
-          "effectbyskeleton": true,
-          "display_data": [
-            {
-              "name": "WEAPON.png",
-              "displayType": 0,
-              "skin_data": [
-                {
-                  "x": -72.48221,
-                  "y": -59.7814255,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "bladelightdown",
-          "parent": "weapen",
-          "dI": -1,
-          "x": -125.93936920166016,
-          "y": -99.129074096679688,
-          "z": 14,
-          "cX": 1.0,
-          "cY": 1.0,
-          "kX": 1.33148813,
-          "kY": -1.33148813,
-          "arrow_x": 184.07437133789063,
-          "arrow_y": -2.2530492060468532E-05,
-          "effectbyskeleton": true,
-          "display_data": [
-            {
-              "name": "knifelightb.png",
-              "displayType": 0,
-              "skin_data": [
-                {
-                  "x": 106.102386,
-                  "y": 18.31422,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -1.499492,
-                  "kY": 1.49949265
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "bladelightup",
-          "parent": "weapen",
-          "dI": -1,
-          "x": -120.67060089111328,
-          "y": -96.450057983398438,
-          "z": 13,
-          "cX": 1.0,
-          "cY": 1.0,
-          "kX": -1.169184,
-          "kY": 1.169184,
-          "arrow_x": 181.93765258789063,
-          "arrow_y": 6.18457852397114E-06,
-          "effectbyskeleton": true,
-          "display_data": [
-            {
-              "name": "knifelight.png",
-              "displayType": 0,
-              "skin_data": [
-                {
-                  "x": 47.9881439,
-                  "y": 112.093086,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.1434257,
-                  "kY": -1.1434294
-                }
-              ]
-            }
-          ]
         }
       ]
     }
@@ -483,48 +421,6 @@
           "sc": 1.0,
           "mov_bone_data": [
             {
-              "name": "bladelightdown",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "bladelightup",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
               "name": "leftarmb",
               "dl": 0.0,
               "frame_data": [
@@ -539,9 +435,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -554,9 +448,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -575,9 +467,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -590,9 +480,39 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -611,9 +531,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -626,9 +544,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -647,9 +563,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -662,9 +576,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -683,9 +595,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -698,9 +608,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -719,9 +627,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -734,9 +640,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -755,9 +659,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -770,9 +672,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -791,9 +691,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -806,45 +704,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 1,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -863,9 +723,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -878,9 +736,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -899,9 +755,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -914,9 +768,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -935,9 +787,20 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             }
@@ -958,33 +821,29 @@
               "frame_data": [
                 {
                   "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
+                  "x": -0.346435546875,
+                  "y": 1.3711261749267578,
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.352248371,
-                  "kY": -0.352248371,
+                  "kX": 0.1487166,
+                  "kY": -0.1487166,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
+                  "x": -0.346435546875,
+                  "y": 1.3711261749267578,
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.352248371,
-                  "kY": -0.352248371,
+                  "kX": 0.1487166,
+                  "kY": -0.1487166,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -999,13 +858,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.135596484,
-                  "kY": 0.135596484,
+                  "kX": -0.15531975,
+                  "kY": 0.15531975,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1018,9 +875,7 @@
                   "kY": 0.01434138,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1029,13 +884,30 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.135596484,
-                  "kY": 0.135596484,
+                  "kX": -0.15531975,
+                  "kY": 0.15531975,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 2.388916015625,
+                  "y": -16.931648254394531,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.341773,
+                  "kY": 1.341773,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1054,9 +926,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1069,9 +939,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1090,9 +958,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1105,9 +971,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1120,9 +984,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1141,9 +1003,7 @@
                   "kY": 0.06858514,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1156,9 +1016,7 @@
                   "kY": 0.06858514,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1177,9 +1035,7 @@
                   "kY": 0.48297742,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1192,9 +1048,7 @@
                   "kY": 0.6499121,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1207,9 +1061,7 @@
                   "kY": 0.48297742,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1228,9 +1080,7 @@
                   "kY": -0.356801957,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1243,9 +1093,7 @@
                   "kY": -0.4972141,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1258,9 +1106,7 @@
                   "kY": -0.356801957,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1279,9 +1125,7 @@
                   "kY": 0.348355949,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1294,9 +1138,7 @@
                   "kY": 0.453579664,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1309,30 +1151,7 @@
                   "kY": 0.348355949,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -1.2006346,
-                  "kY": 1.2006346,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1351,9 +1170,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1366,9 +1183,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1383,13 +1198,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.226835087,
-                  "kY": -0.226835087,
+                  "kX": 0.400369942,
+                  "kY": -0.400369942,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1398,13 +1211,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.01835236,
-                  "kY": -0.01835236,
+                  "kX": 0.2927063,
+                  "kY": -0.2927063,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1413,13 +1224,43 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.226835087,
-                  "kY": -0.226835087,
+                  "kX": 0.400369942,
+                  "kY": -0.400369942,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             }
@@ -1445,13 +1286,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.142919749,
-                  "kY": -0.142919749,
+                  "kX": 0.09513049,
+                  "kY": -0.09513049,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1460,13 +1299,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.143668652,
-                  "kY": -0.143668652,
-                  "fi": 30,
+                  "kX": 0.09513049,
+                  "kY": -0.09513049,
+                  "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1481,13 +1318,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.29894045,
-                  "kY": 0.29894045,
+                  "kX": -0.4652705,
+                  "kY": 0.4652705,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1496,13 +1331,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.196931928,
-                  "kY": 0.196931928,
+                  "kX": -0.159726,
+                  "kY": 0.159726,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1511,13 +1344,43 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.29894045,
-                  "kY": 0.29894045,
+                  "kX": -0.4652705,
+                  "kY": 0.4652705,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 4.3321304321289062,
+                  "y": -16.9138126373291,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25982153,
+                  "kY": 1.25982153,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 4.3321304321289062,
+                  "y": -16.9138126373291,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25982153,
+                  "kY": 1.25982153,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1536,9 +1399,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1551,9 +1412,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1572,9 +1431,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1587,9 +1444,7 @@
                   "kY": 0.0,
                   "fi": 7,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1602,9 +1457,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1617,9 +1470,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1632,9 +1483,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1649,13 +1498,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.252741575,
-                  "kY": 0.252741575,
+                  "kX": -0.4357639,
+                  "kY": 0.4357639,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1664,13 +1511,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.162024811,
-                  "kY": 0.162024811,
+                  "kX": 0.0450899228,
+                  "kY": -0.0450899228,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1679,13 +1524,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.252741575,
-                  "kY": 0.252741575,
+                  "kX": -0.4357639,
+                  "kY": 0.4357639,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1700,13 +1543,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -1.06266642,
-                  "kY": 1.06266642,
+                  "kX": -0.8067697,
+                  "kY": 0.8067697,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1715,13 +1556,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.05158173,
-                  "kY": 0.05158173,
+                  "kX": -0.146903872,
+                  "kY": 0.146903872,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1730,13 +1569,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -1.06266642,
-                  "kY": 1.06266642,
+                  "kX": -0.8067697,
+                  "kY": 0.8067697,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1755,9 +1592,7 @@
                   "kY": -0.315945685,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1766,13 +1601,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.225755557,
-                  "kY": 0.225755557,
+                  "kX": -0.167296484,
+                  "kY": 0.167296484,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1785,9 +1618,7 @@
                   "kY": -0.315945685,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1806,9 +1637,7 @@
                   "kY": 0.286968231,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1817,13 +1646,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -1.1429404,
-                  "kY": 1.1429404,
+                  "kX": -0.980342,
+                  "kY": 0.980342,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1832,49 +1659,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.437328964,
-                  "kY": 0.437328964,
+                  "kX": -0.286968231,
+                  "kY": 0.286968231,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -1.02801812,
-                  "kY": 1.02801812,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -1.21557081,
-                  "kY": 1.21557081,
-                  "fi": 8,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1889,13 +1678,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.0258011427,
-                  "kY": -0.0258011427,
+                  "kX": -0.0673457757,
+                  "kY": 0.0673457757,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1904,13 +1691,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.0569135919,
-                  "kY": -0.0569135919,
-                  "fi": 22,
+                  "kX": -0.0673457757,
+                  "kY": 0.0673457757,
+                  "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -1925,13 +1710,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.382618934,
-                  "kY": -0.382618934,
+                  "kX": 0.5737617,
+                  "kY": -0.5737617,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1940,13 +1723,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.246657729,
-                  "kY": -0.246657729,
+                  "kX": 0.190973073,
+                  "kY": -0.190973073,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -1955,13 +1736,43 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 0.382618934,
-                  "kY": -0.382618934,
+                  "kX": 0.5737617,
+                  "kY": -0.5737617,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             }
@@ -1969,554 +1780,6 @@
         },
         {
           "name": "attack1",
-          "dr": 31,
-          "lp": false,
-          "to": 0,
-          "drTW": 0,
-          "twE": 0,
-          "sc": 1.0,
-          "mov_bone_data": [
-            {
-              "name": "bladelightup",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": -1000,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 20,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 21,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 29,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": -1000,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftarmb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.1354793,
-                  "kY": -0.1354793,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftarma",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.213768065,
-                  "kY": 0.213768065,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "head",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 2,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 5,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 25,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "body",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": -4.5454540252685547,
-                  "y": -22.727270126342773,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftlega",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.06858514,
-                  "kY": 0.06858514,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.06858514,
-                  "kY": 0.06858514,
-                  "fi": 1,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftlegb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.48297742,
-                  "kY": 0.48297742,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.6499121,
-                  "kY": 0.6499121,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.48297742,
-                  "kY": 0.48297742,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightlega",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.248285368,
-                  "kY": -0.248285368,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.4972141,
-                  "kY": -0.4972141,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.248285368,
-                  "kY": -0.248285368,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightlegb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.212563261,
-                  "kY": 0.212563261,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.453579664,
-                  "kY": 0.453579664,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.212563261,
-                  "kY": 0.212563261,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.869945467,
-                  "kY": 0.869945467,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -1.03207886,
-                  "kY": 1.03207886,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightarmb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.7368891,
-                  "kY": -0.7368891,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightarma",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.028776437,
-                  "kY": 0.028776437,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.36490667,
-                  "kY": -1.36490667,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.192528576,
-                  "kY": -0.192528576,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "attack2",
           "dr": 41,
           "lp": false,
           "to": 0,
@@ -2525,57 +1788,6 @@
           "sc": 1.0,
           "mov_bone_data": [
             {
-              "name": "bladelightup",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": -1000,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 19,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 20,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": -1000,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 26,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
               "name": "leftarmb",
               "dl": 0.0,
               "frame_data": [
@@ -2590,9 +1802,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2605,9 +1815,7 @@
                   "kY": -0.354502082,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2620,9 +1828,7 @@
                   "kY": -0.0947916955,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2635,9 +1841,7 @@
                   "kY": 0.0,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2656,9 +1860,7 @@
                   "kY": -1.00560069,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2671,9 +1873,7 @@
                   "kY": -2.311516,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2686,9 +1886,7 @@
                   "kY": -0.923044443,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2701,9 +1899,39 @@
                   "kY": -1.00560069,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 8.7712783813476562,
+                  "y": -12.433757781982422,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.8616508,
+                  "kY": 0.8616508,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 8.7712783813476562,
+                  "y": -12.433757781982422,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.5654911,
+                  "kY": 0.5654911,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2722,9 +1950,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 2,
@@ -2737,9 +1963,7 @@
                   "kY": 0.0,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2752,9 +1976,7 @@
                   "kY": 0.0,
                   "fi": 35,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2773,9 +1995,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2788,14 +2008,12 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
                   "x": -10.526315689086914,
-                  "y": -173.68418884277344,
+                  "y": -96.54132080078125,
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
@@ -2803,9 +2021,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2818,9 +2034,7 @@
                   "kY": 0.0,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2839,24 +2053,7 @@
                   "kY": 0.06858514,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.338356256,
-                  "kY": 0.338356256,
-                  "fi": 14,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2869,9 +2066,7 @@
                   "kY": 0.220030129,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2884,9 +2079,7 @@
                   "kY": 0.251249224,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2899,9 +2092,7 @@
                   "kY": 0.06858514,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2920,9 +2111,7 @@
                   "kY": 0.48297742,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2935,9 +2124,7 @@
                   "kY": 1.08815527,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2950,9 +2137,7 @@
                   "kY": 1.20897734,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -2965,9 +2150,7 @@
                   "kY": 0.48297742,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -2986,24 +2169,7 @@
                   "kY": -0.356801957,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.3973165,
-                  "kY": -0.3973165,
-                  "fi": 14,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3016,9 +2182,7 @@
                   "kY": -0.5576876,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3031,9 +2195,7 @@
                   "kY": -0.4440244,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3046,9 +2208,7 @@
                   "kY": -0.356801957,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3067,9 +2227,7 @@
                   "kY": 0.348355949,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3082,9 +2240,7 @@
                   "kY": 1.75027537,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3097,9 +2253,7 @@
                   "kY": 1.78618586,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3112,30 +2266,7 @@
                   "kY": 0.348355949,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.336580545,
-                  "kY": 0.336580545,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3154,9 +2285,7 @@
                   "kY": 0.08059548,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3169,9 +2298,7 @@
                   "kY": -0.7368891,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3184,9 +2311,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3199,9 +2324,7 @@
                   "kY": 0.08059548,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3220,9 +2343,7 @@
                   "kY": 0.028776437,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3235,9 +2356,7 @@
                   "kY": -1.36490667,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3250,9 +2369,7 @@
                   "kY": 0.028776437,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3265,9 +2382,39 @@
                   "kY": 0.028776437,
                   "fi": 40,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             }
@@ -3280,7 +2427,7 @@
           "to": 0,
           "drTW": 0,
           "twE": 0,
-          "sc": 0.6666667,
+          "sc": 1.0,
           "mov_bone_data": [
             {
               "name": "leftarmb",
@@ -3297,9 +2444,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3312,9 +2457,7 @@
                   "kY": -0.15615882,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3327,9 +2470,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3348,9 +2489,7 @@
                   "kY": 0.135596484,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3363,9 +2502,7 @@
                   "kY": -0.144412175,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3378,14 +2515,12 @@
                   "kY": 0.135596484,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
             {
-              "name": "head",
+              "name": "weapon",
               "dl": 0.0,
               "frame_data": [
                 {
@@ -3395,13 +2530,56 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
+                  "kX": -1.02154994,
+                  "kY": 1.02154994,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -2.01619744,
+                  "kY": 2.01619744,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.44077706,
+                  "kY": 1.44077706,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 3,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
                   "kX": 0.0,
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 3,
@@ -3412,11 +2590,9 @@
                   "cY": 1.0,
                   "kX": 0.0,
                   "kY": 0.0,
-                  "fi": 5,
+                  "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3435,9 +2611,7 @@
                   "kY": -1.35525272E-18,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3450,9 +2624,7 @@
                   "kY": -0.09583089,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3465,9 +2637,7 @@
                   "kY": 0.0,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3486,9 +2656,7 @@
                   "kY": 0.06858514,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3501,9 +2669,7 @@
                   "kY": 0.244716316,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3516,9 +2682,7 @@
                   "kY": 0.06858514,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3537,9 +2701,7 @@
                   "kY": 0.48297742,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3552,9 +2714,7 @@
                   "kY": 0.6499121,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3567,9 +2727,7 @@
                   "kY": 0.48297742,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3588,9 +2746,7 @@
                   "kY": -0.356801957,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3603,9 +2759,7 @@
                   "kY": -0.329193622,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3618,9 +2772,7 @@
                   "kY": -0.356801957,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3639,9 +2791,7 @@
                   "kY": 0.348355949,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3654,9 +2804,7 @@
                   "kY": 0.9546334,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3669,30 +2817,7 @@
                   "kY": 0.348355949,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -1.02154994,
-                  "kY": 1.02154994,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3711,9 +2836,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3726,9 +2849,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -3747,9 +2868,7 @@
                   "kY": -0.226835087,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3762,9 +2881,7 @@
                   "kY": 0.161941931,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -3777,131 +2894,16 @@
                   "kY": -0.226835087,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "expower1",
-          "dr": 31,
-          "lp": false,
-          "to": 0,
-          "drTW": 0,
-          "twE": 0,
-          "sc": 1.0,
-          "mov_bone_data": [
-            {
-              "name": "leftarmb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.352248371,
-                  "kY": -0.352248371,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.352248371,
-                  "kY": -0.352248371,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.68552,
-                  "kY": -1.68552,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
             {
-              "name": "leftarma",
+              "name": "backhair",
               "dl": 0.0,
               "frame_data": [
                 {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.135596484,
-                  "kY": 0.135596484,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.135596484,
-                  "kY": 0.135596484,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.441500068,
-                  "kY": -0.441500068,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "head",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
+                  "dI": -1,
                   "x": 0.0,
                   "y": 0.0,
                   "z": 0,
@@ -3911,288 +2913,10 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
-                  "dI": 2,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 5,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "body",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": -4.5454540252685547,
-                  "y": -22.727270126342773,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftlega",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.06858514,
-                  "kY": 0.06858514,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.06858514,
-                  "kY": 0.06858514,
-                  "fi": 1,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "leftlegb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.48297742,
-                  "kY": 0.48297742,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.6499121,
-                  "kY": 0.6499121,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.48297742,
-                  "kY": 0.48297742,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightlega",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.356801957,
-                  "kY": -0.356801957,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.4972141,
-                  "kY": -0.4972141,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.356801957,
-                  "kY": -0.356801957,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightlegb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.348355949,
-                  "kY": 0.348355949,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.453579664,
-                  "kY": 0.453579664,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.348355949,
-                  "kY": 0.348355949,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": -1000,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": -1000,
+                  "dI": -1,
                   "x": 0.0,
                   "y": 0.0,
                   "z": 0,
@@ -4202,96 +2926,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightarmb",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.01069236,
-                  "kY": -1.01069236,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 1.6811924,
-                  "kY": -1.6811924,
-                  "fi": 30,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "rightarma",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.226835087,
-                  "kY": -0.226835087,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.445850551,
-                  "kY": -0.445850551,
-                  "fi": 15,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             }
@@ -4304,7 +2939,7 @@
           "to": 0,
           "drTW": 0,
           "twE": 0,
-          "sc": 0.8333333,
+          "sc": 0.333333343,
           "mov_bone_data": [
             {
               "name": "leftarmb",
@@ -4321,9 +2956,7 @@
                   "kY": -0.352248371,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4336,9 +2969,7 @@
                   "kY": -0.352248371,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4357,9 +2988,7 @@
                   "kY": 0.135596484,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4372,9 +3001,7 @@
                   "kY": -0.0141892321,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4387,9 +3014,39 @@
                   "kY": 0.135596484,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.51778293,
+                  "kY": 1.51778293,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.51778293,
+                  "kY": 1.51778293,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4408,9 +3065,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 2,
@@ -4423,9 +3078,7 @@
                   "kY": 0.0,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4438,9 +3091,7 @@
                   "kY": 0.0,
                   "fi": 20,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4459,9 +3110,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4474,9 +3123,7 @@
                   "kY": 0.0,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4489,9 +3136,7 @@
                   "kY": 0.0,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4504,9 +3149,7 @@
                   "kY": 0.0,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4525,9 +3168,7 @@
                   "kY": 0.06858514,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4540,9 +3181,7 @@
                   "kY": 0.160571992,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4555,9 +3194,7 @@
                   "kY": 0.114112347,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4570,9 +3207,7 @@
                   "kY": 0.114112347,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4591,9 +3226,7 @@
                   "kY": 0.48297742,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4606,9 +3239,7 @@
                   "kY": 0.645422161,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4621,9 +3252,7 @@
                   "kY": 0.333556,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4636,9 +3265,7 @@
                   "kY": 0.48297742,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4657,9 +3284,7 @@
                   "kY": -0.356801957,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4672,9 +3297,7 @@
                   "kY": -0.445045978,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4687,9 +3310,7 @@
                   "kY": -0.289624542,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4702,9 +3323,7 @@
                   "kY": -0.356801957,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4723,9 +3342,7 @@
                   "kY": 0.348355949,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4738,9 +3355,7 @@
                   "kY": 1.01071656,
                   "fi": 5,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4753,9 +3368,7 @@
                   "kY": 0.668021142,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4768,30 +3381,7 @@
                   "kY": 0.348355949,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": -0.997379243,
-                  "kY": 0.997379243,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4810,9 +3400,7 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4825,9 +3413,7 @@
                   "kY": 0.0,
                   "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4846,9 +3432,7 @@
                   "kY": -0.226835087,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4861,9 +3445,7 @@
                   "kY": -0.01571805,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4876,9 +3458,39 @@
                   "kY": -0.226835087,
                   "fi": 25,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             }
@@ -4886,7 +3498,7 @@
         },
         {
           "name": "dead",
-          "dr": 30,
+          "dr": 31,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -4908,9 +3520,20 @@
                   "kY": -0.352248371,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.352248371,
+                  "kY": -0.352248371,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4929,9 +3552,7 @@
                   "kY": 0.135596484,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -4944,9 +3565,39 @@
                   "kY": -0.239655852,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.474103,
+                  "kY": 1.474103,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4965,9 +3616,20 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -4986,14 +3648,12 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
-                  "x": 187.272705078125,
-                  "y": -1.818181037902832,
+                  "x": 242.27272033691406,
+                  "y": 50.681831359863281,
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
@@ -5001,24 +3661,20 @@
                   "kY": -0.6766668,
                   "fi": 15,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
-                  "x": 354.54544067382812,
-                  "y": -154.54542541503906,
+                  "x": 373.15011596679688,
+                  "y": -203.38265991210938,
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": 1.4638238,
-                  "kY": -1.4638238,
+                  "kX": 1.52920818,
+                  "kY": -1.52920818,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -5037,9 +3693,20 @@
                   "kY": 0.06858514,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.129598558,
+                  "kY": -0.129598558,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -5058,9 +3725,20 @@
                   "kY": 0.48297742,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -5079,9 +3757,7 @@
                   "kY": -0.356801957,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -5094,9 +3770,7 @@
                   "kY": -0.0717771,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -5115,30 +3789,7 @@
                   "kY": 0.348355949,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
-                }
-              ]
-            },
-            {
-              "name": "weapen",
-              "dl": 0.0,
-              "frame_data": [
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 0,
-                  "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -5147,13 +3798,11 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -1.17345428,
-                  "kY": 1.17345428,
-                  "fi": 30,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 1,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 }
               ]
             },
@@ -5172,9 +3821,20 @@
                   "kY": 0.0,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             },
@@ -5193,9 +3853,7 @@
                   "kY": -0.226835087,
                   "fi": 0,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
                 },
                 {
                   "dI": 0,
@@ -5204,13 +3862,1514 @@
                   "z": 0,
                   "cX": 1.0,
                   "cY": 1.0,
-                  "kX": -0.5205083,
-                  "kY": 0.5205083,
+                  "kX": -0.358982742,
+                  "kY": 0.358982742,
                   "fi": 30,
                   "twE": 0,
-                  "tweenFrame": true,
-                  "bd_src": 770,
-                  "bd_dst": 771
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack2",
+          "dr": 41,
+          "lp": false,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "leftarmb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.02581184,
+                  "kY": -0.02581184,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftarma",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.135596484,
+                  "kY": 0.135596484,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.594743,
+                  "kY": -1.594743,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 4.35104465,
+                  "kY": -4.35104465,
+                  "fi": 16,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 4.6811347,
+                  "kY": -4.6811347,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.135596484,
+                  "kY": 0.135596484,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25601435,
+                  "kY": 1.25601435,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25601435,
+                  "kY": 1.25601435,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0888894,
+                  "kY": -0.0888894,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "body",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": -2.8571422100067139,
+                  "y": -22.85713005065918,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.166615382,
+                  "kY": 0.166615382,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftlega",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06858514,
+                  "kY": 0.06858514,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.304623961,
+                  "kY": 0.304623961,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06858514,
+                  "kY": 0.06858514,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftlegb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.163600579,
+                  "kY": 0.163600579,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightlega",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.356801957,
+                  "kY": -0.356801957,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.6920685,
+                  "kY": -0.6920685,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.356801957,
+                  "kY": -0.356801957,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightlegb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.533385456,
+                  "kY": 0.533385456,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightarmb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.2992894,
+                  "kY": -0.2992894,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightarma",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.00725431368,
+                  "kY": 0.00725431368,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.146224916,
+                  "kY": -0.146224916,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "win",
+          "dr": 31,
+          "lp": false,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.6666667,
+          "mov_bone_data": [
+            {
+              "name": "leftarmb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.352248371,
+                  "kY": -0.352248371,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.352248371,
+                  "kY": -0.352248371,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftarma",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.135596484,
+                  "kY": 0.135596484,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.01434138,
+                  "kY": 0.01434138,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.135596484,
+                  "kY": 0.135596484,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.9753309,
+                  "kY": 0.9753309,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -7.4371233,
+                  "kY": 7.4371233,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -10.4809017,
+                  "kY": 10.4809017,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "body",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": -4.5454540252685547,
+                  "y": -22.727270126342773,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftlega",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06858514,
+                  "kY": 0.06858514,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06858514,
+                  "kY": 0.06858514,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftlegb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.6499121,
+                  "kY": 0.6499121,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightlega",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.356801957,
+                  "kY": -0.356801957,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.4972141,
+                  "kY": -0.4972141,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.356801957,
+                  "kY": -0.356801957,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightlegb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.453579664,
+                  "kY": 0.453579664,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightarmb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightarma",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.226835087,
+                  "kY": -0.226835087,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.751791835,
+                  "kY": -0.751791835,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.647279143,
+                  "kY": -0.647279143,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack3",
+          "dr": 41,
+          "lp": false,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "leftarmb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.08520937,
+                  "kY": -1.08520937,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftarma",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.135596484,
+                  "kY": 0.135596484,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.135596484,
+                  "kY": 0.135596484,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "weapon",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25601435,
+                  "kY": 1.25601435,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25601435,
+                  "kY": 1.25601435,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "head",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 2,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "body",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": -2.8571422100067139,
+                  "y": -22.85713005065918,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.166615382,
+                  "kY": 0.166615382,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftlega",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06858514,
+                  "kY": 0.06858514,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.304623961,
+                  "kY": 0.304623961,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.06858514,
+                  "kY": 0.06858514,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "leftlegb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.163600579,
+                  "kY": 0.163600579,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.48297742,
+                  "kY": 0.48297742,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightlega",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.356801957,
+                  "kY": -0.356801957,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.6920685,
+                  "kY": -0.6920685,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.356801957,
+                  "kY": -0.356801957,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightlegb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.533385456,
+                  "kY": 0.533385456,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.348355949,
+                  "kY": 0.348355949,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightarmb",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.4244806,
+                  "kY": -0.4244806,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.3042086,
+                  "kY": -0.3042086,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "rightarma",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 2.759095,
+                  "kY": -2.759095,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.194124758,
+                  "kY": -0.194124758,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.146224916,
+                  "kY": -0.146224916,
+                  "fi": 40,
+                  "twE": 0,
+                  "tweenFrame": true
+                }
+              ]
+            },
+            {
+              "name": "backhair",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true
+                },
+                {
+                  "dI": -1,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 1,
+                  "twE": 0,
+                  "tweenFrame": true
                 }
               ]
             }
@@ -5226,7 +5385,85 @@
       "height": 336.0,
       "pX": 0.5,
       "pY": 0.5,
-      "plistFile": ""
+      "plistFile": "",
+      "contour_data": [
+        {
+          "vertex": [
+            {
+              "x": 42.0,
+              "y": 26.0
+            },
+            {
+              "x": 79.0,
+              "y": -45.0
+            },
+            {
+              "x": 76.0,
+              "y": -82.0
+            },
+            {
+              "x": -60.0,
+              "y": -84.0
+            },
+            {
+              "x": -74.0,
+              "y": -66.0
+            },
+            {
+              "x": -42.0,
+              "y": -2.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": -42.0,
+              "y": -2.0
+            },
+            {
+              "x": 42.0,
+              "y": 75.0
+            },
+            {
+              "x": 42.0,
+              "y": 26.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": -42.0,
+              "y": -2.0
+            },
+            {
+              "x": -54.0,
+              "y": 85.0
+            },
+            {
+              "x": -36.0,
+              "y": 120.0
+            },
+            {
+              "x": 19.0,
+              "y": 137.0
+            },
+            {
+              "x": 38.0,
+              "y": 126.0
+            },
+            {
+              "x": 49.0,
+              "y": 89.0
+            },
+            {
+              "x": 42.0,
+              "y": 75.0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "head",
@@ -5234,7 +5471,93 @@
       "height": 700.0,
       "pX": 0.5,
       "pY": 0.5,
-      "plistFile": ""
+      "plistFile": "",
+      "contour_data": [
+        {
+          "vertex": [
+            {
+              "x": -146.0,
+              "y": 11.0
+            },
+            {
+              "x": -163.0,
+              "y": 44.0
+            },
+            {
+              "x": -158.0,
+              "y": 139.0
+            },
+            {
+              "x": -89.0,
+              "y": 206.0
+            },
+            {
+              "x": -34.0,
+              "y": 215.0
+            },
+            {
+              "x": 40.0,
+              "y": 207.0
+            },
+            {
+              "x": 106.0,
+              "y": 155.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": 106.0,
+              "y": 155.0
+            },
+            {
+              "x": 129.0,
+              "y": 109.0
+            },
+            {
+              "x": 133.0,
+              "y": 51.0
+            },
+            {
+              "x": 86.0,
+              "y": -43.0
+            },
+            {
+              "x": 31.0,
+              "y": -92.0
+            },
+            {
+              "x": -88.0,
+              "y": -92.0
+            },
+            {
+              "x": -146.0,
+              "y": 11.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": -88.0,
+              "y": -92.0
+            },
+            {
+              "x": -124.0,
+              "y": -74.0
+            },
+            {
+              "x": -148.0,
+              "y": -49.0
+            },
+            {
+              "x": -146.0,
+              "y": 11.0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "leftarma",
@@ -5306,28 +5629,98 @@
       "height": 288.0,
       "pX": 0.5,
       "pY": 0.5,
-      "plistFile": ""
-    },
-    {
-      "name": "knifelight",
-      "width": 384.0,
-      "height": 384.0,
-      "pX": 0.5,
-      "pY": 0.5,
-      "plistFile": ""
-    },
-    {
-      "name": "knifelightb",
-      "width": 384.0,
-      "height": 384.0,
-      "pX": 0.5,
-      "pY": 0.5,
-      "plistFile": ""
+      "plistFile": "",
+      "contour_data": [
+        {
+          "vertex": [
+            {
+              "x": -23.0,
+              "y": -5.0
+            },
+            {
+              "x": 5.0,
+              "y": 48.0
+            },
+            {
+              "x": 27.0,
+              "y": 36.0
+            },
+            {
+              "x": 37.0,
+              "y": 24.0
+            },
+            {
+              "x": 27.0,
+              "y": 8.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": 27.0,
+              "y": 8.0
+            },
+            {
+              "x": -142.0,
+              "y": -134.0
+            },
+            {
+              "x": -160.0,
+              "y": -142.0
+            },
+            {
+              "x": -190.0,
+              "y": -127.0
+            },
+            {
+              "x": -74.0,
+              "y": -30.0
+            },
+            {
+              "x": -23.0,
+              "y": -5.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": 37.0,
+              "y": 24.0
+            },
+            {
+              "x": 44.0,
+              "y": -1.0
+            },
+            {
+              "x": 27.0,
+              "y": 8.0
+            }
+          ]
+        },
+        {
+          "vertex": [
+            {
+              "x": 27.0,
+              "y": 36.0
+            },
+            {
+              "x": 94.0,
+              "y": 74.0
+            },
+            {
+              "x": 37.0,
+              "y": 24.0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "headdead",
-      "width": 0.0,
-      "height": 0.0,
+      "width": 576.0,
+      "height": 700.0,
       "pX": 0.5,
       "pY": 0.5,
       "plistFile": ""
@@ -5342,8 +5735,8 @@
     },
     {
       "name": "headhitted",
-      "width": 0.0,
-      "height": 0.0,
+      "width": 576.0,
+      "height": 700.0,
       "pX": 0.5,
       "pY": 0.5,
       "plistFile": ""
