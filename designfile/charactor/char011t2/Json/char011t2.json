@@ -4,7 +4,7 @@
     {
       "strVersion": "1.4.0.1",
       "version": 1.401,
-      "name": "char011t1",
+      "name": "char011t2",
       "bone_data": [
         {
           "name": "body",
@@ -377,8 +377,8 @@
           "name": "weapon",
           "parent": "rightarmb",
           "dI": 0,
-          "x": 108.69957733154297,
-          "y": 0.3680877685546875,
+          "x": 108.6995849609375,
+          "y": 0.36809539794921875,
           "z": 5,
           "cX": 1.0,
           "cY": 1.0,
@@ -440,7 +440,7 @@
   ],
   "animation_data": [
     {
-      "name": "char011t1",
+      "name": "char011t2",
       "mov_data": [
         {
           "name": "default",
@@ -2022,19 +2022,6 @@
                   "tweenFrame": true
                 },
                 {
-                  "dI": 2,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 5,
-                  "twE": 0,
-                  "tweenFrame": true
-                },
-                {
                   "dI": 0,
                   "x": 0.0,
                   "y": 0.0,
@@ -2043,7 +2030,7 @@
                   "cY": 1.0,
                   "kX": 0.0,
                   "kY": 0.0,
-                  "fi": 25,
+                  "fi": 1,
                   "twE": 0,
                   "tweenFrame": true
                 }
@@ -2399,7 +2386,7 @@
         },
         {
           "name": "hitted",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -2885,7 +2872,7 @@
         },
         {
           "name": "jump",
-          "dr": 26,
+          "dr": 25,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -3481,7 +3468,7 @@
         },
         {
           "name": "dead",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
