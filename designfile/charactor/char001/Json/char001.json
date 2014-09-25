@@ -9,7 +9,7 @@
         {
           "name": "shield",
           "parent": "",
-          "dI": -1000,
+          "dI": 0,
           "x": -112.85091400146484,
           "y": 7.7666902542114258,
           "z": 13,
@@ -164,7 +164,7 @@
         {
           "name": "head",
           "parent": "body",
-          "dI": 0,
+          "dI": 2,
           "x": 3.2786884307861328,
           "y": 158.36064147949219,
           "z": 9,
@@ -220,6 +220,20 @@
             },
             {
               "name": "headhitted.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 53.29595,
+                  "y": -30.357975,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.57079637,
+                  "kY": -1.57079637
+                }
+              ]
+            },
+            {
+              "name": "headwin.png",
               "displayType": 0,
               "skin_data": [
                 {
@@ -839,7 +853,7 @@
         },
         {
           "name": "standing",
-          "dr": 31,
+          "dr": 30,
           "lp": true,
           "to": 0,
           "drTW": 0,
@@ -1344,7 +1358,7 @@
         },
         {
           "name": "running",
-          "dr": 31,
+          "dr": 30,
           "lp": true,
           "to": 0,
           "drTW": 0,
@@ -1888,7 +1902,7 @@
         },
         {
           "name": "hitted",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -2419,7 +2433,7 @@
         },
         {
           "name": "jump",
-          "dr": 26,
+          "dr": 25,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -3028,7 +3042,7 @@
         },
         {
           "name": "dead",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -3455,7 +3469,7 @@
         },
         {
           "name": "win",
-          "dr": 31,
+          "dr": 30,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -3608,7 +3622,7 @@
                   "tweenFrame": true
                 },
                 {
-                  "dI": 0,
+                  "dI": 4,
                   "x": 0.0,
                   "y": 0.0,
                   "z": 0,
@@ -3616,33 +3630,7 @@
                   "cY": 1.0,
                   "kX": 0.0,
                   "kY": 0.0,
-                  "fi": 1,
-                  "twE": 0,
-                  "tweenFrame": true
-                },
-                {
-                  "dI": 2,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 10,
-                  "twE": 0,
-                  "tweenFrame": true
-                },
-                {
-                  "dI": 0,
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0,
-                  "cX": 1.0,
-                  "cY": 1.0,
-                  "kX": 0.0,
-                  "kY": 0.0,
-                  "fi": 25,
+                  "fi": 5,
                   "twE": 0,
                   "tweenFrame": true
                 }
@@ -3960,7 +3948,7 @@
         },
         {
           "name": "attack1",
-          "dr": 41,
+          "dr": 40,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -4569,7 +4557,7 @@
         },
         {
           "name": "attack2",
-          "dr": 41,
+          "dr": 40,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -5100,7 +5088,7 @@
         },
         {
           "name": "attack3",
-          "dr": 41,
+          "dr": 40,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -5774,7 +5762,7 @@
         },
         {
           "name": "expower",
-          "dr": 41,
+          "dr": 40,
           "lp": false,
           "to": 0,
           "drTW": 0,
@@ -6511,7 +6499,7 @@
               "y": 207.0
             },
             {
-              "x": -31.0,
+              "x": -23.0,
               "y": 215.0
             },
             {
@@ -6772,6 +6760,14 @@
       "name": "magicsh",
       "width": 88.0,
       "height": 162.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "headwin",
+      "width": 576.0,
+      "height": 700.0,
       "pX": 0.5,
       "pY": 0.5,
       "plistFile": ""

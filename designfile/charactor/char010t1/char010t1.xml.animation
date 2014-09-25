@@ -14,6 +14,13 @@
   <filePath>D:\GitHub\gogogo\designfile\charactor\char010t1\char010t1.xml.animation</filePath>
   <ProjectType>AnimationProject</ProjectType>
   <ResRelativePath />
-  <ResourceFileList />
-  <bBatchImage>false</bBatchImage>
+  <ResourceFileList>
+    <string>char010t10.plist</string>
+    <string>char010t11.plist</string>
+    <string>char010t12.plist</string>
+    <string>char010t13.plist</string>
+    <string>char010t14.plist</string>
+    <string>char010t15.plist</string>
+  </ResourceFileList>
+  <bBatchImage>true</bBatchImage>
 </AnimationProject>
